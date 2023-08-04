@@ -19,5 +19,6 @@ public class UserEntity{
     private Long id;
 
     private String name;
-    private int score;
+    transient private int score;
+
 }
